@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+p#headding {
+    position: absolute;
+    text-align: center;
+    top: 17vh;
+    color: white;
+    font-size: 48px;
+    font-weight: 550;
+    left: 50vh;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-timer {
+    width: 700px;
+    height: 350px;
+}
+
+.countdown {
+    width: 700px;
+    height: 250px;
+    /* background-color: rgb(212, 51, 83); */
+    background-color: black;
+    /* border: 10px groove silver; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* box-shadow: 0 0 10px 2px white; */
+}
+
+.time {
+    width: 150px;
+    height: 200px;
+    border: none;
+    outline: none;
+}
+
+.time input {
+    width: 100%;
+    height: 150px;
+    font-size: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(212, 51, 83);
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px 3px white;
+}
+
+.time p {
+    width: 100%;
+    height: 40px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: 700;
+    color: white;
+}
+
+.control-btn {
+    width: 700px;
+    height: 100px;
+    display: flex;
+    padding: 20px 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.control-btn button {
+    width: 150px;
+    height: 60px;
+    transition: 0.3s;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.control-btn button:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 5px 2px black;
+}
